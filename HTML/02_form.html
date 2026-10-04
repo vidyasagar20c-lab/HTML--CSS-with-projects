@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="myform" class="sample test example" action="" method="post"
+    enctype="multipart/form-data">
+    <div>
+        <label >Name</label>
+        <input type="text" name="name" placeholder="Full name">
+    </div>
+    <div>
+        <label >Email</label>
+        <input type="email" name="email" placeholder="Email"></div>
+        <div>
+        <label >Password</label>
+        <input type="password" name="Password" id="passowrd" >
+        <button type="button"id="btn" onclick="fun()">Show</button>
+        </div>
+        <div>
+        <label >Search</label>
+        <input type="search" name="search" placeholder="Search Name...">
+    </div>
+    <div>
+        <label >Url</label>
+        <input type="url" name="url" placeholder="https://www.example.com"> 
+    </div>
+    <div>
+        <label >Phone</label>
+        <input type="tel" name="tel" placeholder="Enter the Phone number"
+         pattern="[6-9]{1}[0-9]{9}">
+    </div>
+    <div>
+        <label >Age</label>
+        <input type="number" name="age" placeholder="Age" min="18" max="50">
+    </div>
+        <button type="reset">Reset</button> 
+        <button type="submit">Submit</button>
+        <script>
+            var password=document.getElementById("password");
+            var btn=document.getElementById("btn");
+            function fun(){
+                if (btn.innerHTML ==="Show") {
+                    btn.innerHTML="Hide"
+                    password.type="text"
+                }
+        else{
+            btn.innerHTML="Show"
+            password.type="password"      
+            }
+        }
+        </script>
+        </form>
+        </body>

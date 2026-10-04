@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label>Gender</label>
+                <input for="male" type="radio" name="gender" id="male" Value="male">
+                <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female" checked>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other" value="other">
+            <label for="other">Other</label>
+        </div>
+        <div>
+            <label>Subject</label>
+            <input type="checkbox" name="mern" id="mern" checked>
+            <label for="mern">Mern</label>
+            <input type="checkbox" name="" id="mean" checked>
+            <label for="mean">Mean</label>
+            <input type="checkbox" name="php" id="php" checked>
+            <label for="php">php</label>
+            <input type="checkbox" name="python" id="python" checked>
+            <label for="python">Python</label>
+            <input type="checkbox" name="mean" id="java" checked>
+            <label for="java">java</label>
+        </div>
+        <div>
+        <label>Range</label>
+        <input type="range" name="range" value="50" id="range" oninput="fun()" min="-500" max="500"  step="50"></label>
+        <span id =rangeSpan>50</span>
+        </div>
+<input type="hidden" name="id" value="123456">
+div>
+            <label for="file">File</label>
+            <
+        <div>
+            <button type=" reset">Reset</button>
+            <button type=" submit">Submit</button>
+        </div>
+    </form>
+    <script>
+        var range= document.getElementById("range")
+        var rangeSpan=document.getElementById("rangeSpan")
+        function fun() {
+            rangeSpan.innerHTML=range.value
+        }
+    </script>
+</body>
+</html>
