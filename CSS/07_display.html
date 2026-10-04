@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+
+    <style>
+        *{
+            margin: 0;
+        }
+        .main{
+            width: 50vw;
+           background-color: blue;
+            color: white;
+            padding: 10px;
+        }
+        .menu{
+            /* background-color: blue;
+            color: white;
+            padding: 10px; */
+            
+        }
+        .icon{
+            float: right;
+            cursor: pointer;
+        }
+        .menu-items{
+            width: 100%;
+            display: none;
+        }
+        .menu-items ul{
+            list-style-type: none;
+            margin-left: -40px;
+        }
+
+        .menu-items li{
+            background-color: blue;
+            padding: 10px;
+            margin: 1px 0;
+        }
+
+        .menu-items a{
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: vardana;
+        }
+            .menu-items li:hover{
+                background-color: navy;
+            }
+            .main.hover .menu-items{
+                display: block;
+            }
+    </style>
+    </head>
+
+<body>
+    <div class="main">
+        <div class="menu">
+            <span>Home</span>
+            <span class="material-symbols-outlined icon">menu</span>
+            </div>
+            <div class="menu-items"></div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">faq</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

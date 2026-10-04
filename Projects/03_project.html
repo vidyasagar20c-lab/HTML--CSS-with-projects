@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Now playing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        body{
+            background-color: gray;
+            justify-content: center;
+           display: flex;
+           align-items: center;
+           height: 100vh;
+        }
+        .black{
+            background-color: black;
+             height: 630px;
+            width: 400px;
+            border-radius: 20px;
+            position: relative;
+        }
+        .menu{
+            color: white;
+            font-size: 25px;
+            margin: 20px;
+            position: absolute;
+        }
+        h2{
+            text-align: center;
+            color:white;
+            font-size :15px;
+            font-family:medium;
+            top:20px;
+            right:20px;
+    }
+    .dot{
+        color:white;
+        font-size: 25px;
+        text-align: right;
+        margin-right: 20px;
+        position: absolute;
+        top:20px;
+        right:20px;
+    }
+    .album{
+        width: 300px;
+        height: 300px;
+        margin:40px auto 0;
+    }
+    .album-img{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 20px;
+        display: block;
+    }
+    h3{
+        font-size: 20px;
+        color: white ;
+        margin: 0px;
+        
+    }
+    h4{
+        font-size: 12px;
+        color:gray;
+        margin:0px;
+    }
+    .art{
+       
+    }
+    .heart{
+        color:red;
+        font-size: 20px;
+        text-align: end;
+    }
+    .watch img{
+       background-color: black;
+        margin-top: 80px;
+        margin-left:40px;
+        height: 50px;
+        width: 310px;
+        color:black
+
+    }
+    .player i{
+        background-color: white;
+        color: white;
+        height: 20px;
+        width: 20px;
+    }
+    </style>
+</head>
+<body>
+   <div class="black">
+    <div class="menu">
+    <i class="fa-solid fa-bars" ></i>
+    </div>
+    <h2>Now Playing</h2>
+    <div class="dot">
+    <i class="fa-solid fa-ellipsis-vertical"></i>
+    </div>
+    <div class="album">
+    <img class="album-img"src="music.jpeg" alt="albums"></img>
+    <h3>Dream Chaser </h3>
+    <h4>Unknown Artist</h4>
+    <div class="heart">❤</div>
+    </div>
+    <div class="watch">
+        <img src="image.webp" alt="music"></img>
+        </div>
+        <div class="palyer">
+            <i class="fa-solid fa-music"></i>
+        </div>
+        </div>
+</body>
+</html>
