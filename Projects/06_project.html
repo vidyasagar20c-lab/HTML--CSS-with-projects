@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .main{
+             width: 100vw;
+             height: 100vh;
+             background-color: lightgray;
+
+             justify-content: center;
+             display: flex;
+             align-items: center;
+        }
+        .center{
+            background-color: white;
+            width: 30%;
+            height: 80%;
+            border-radius: 5px;
+           
+        }
+        .center h2{
+            margin-top: 150px;
+            justify-content: center;
+             display: flex;
+             align-items: center;
+            font-size: 50px;
+        }
+        .login input{
+            width: 80%;
+            height: 40px;
+            margin-top: 50px;
+            margin-left: 40px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 1.5rem;
+            justify-content: center;
+             display: flex;
+             align-items: center;
+        }
+        .pass input{
+            width: 80%;
+            height: 40px;
+            margin-top: 50px;
+            margin-left: 40px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 1.5rem;
+            justify-content: center;
+             display: flex;
+             align-items: center;
+        }
+        .rem{
+            display: flex;
+            margin-left: 40px;
+            margin-top: 30px;
+        }
+        .rem input{
+            margin:5px;
+        }
+        .for{
+            margin-left:150px;
+        }
+        .for a{
+            text-decoration: none;
+            display:block;
+        }
+        .button{
+            width: 200px;
+            height: 50px;
+            background-color: blue;
+            margin-top: 40px;
+            margin-left:130px;
+            text-align: center;
+            border-radius: 10px;
+
+        }
+        .button span{
+           justify-content: center;
+           display: flex;
+           align-items: center;
+           color:white;
+           margin-top: 5px;
+           font-size: 1.5rem;
+           border-radius: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="center">
+            <h2>Login Page</h2>
+            <div class="login"> <input type="text" placeholder="Enter your name"></div>
+            <div class="pass" > <input type="password" placeholder="Password"></div>
+
+            <div class="rem"><input type="checkbox"> Remember me 
+                <div class="for" ><a href="#">Forgot Password</a></div>
+            </div>
+               <div class="button"><span>Login</span></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
